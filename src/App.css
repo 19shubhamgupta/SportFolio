@@ -1,0 +1,35 @@
+.container-fluid {
+  background-color: #f8f9fa;
+}
+
+.card {
+  border-radius: 10px; /* Rounded corners on all sides */
+  box-shadow: none; /* Remove shadow */
+  width: 100%; /* Full width */
+  background-color: transparent; /* Make the background transparent */
+}
+
+/* Custom line spacing for the left section */
+.display-4 {
+  line-height: 1.2;
+}
+
+.custom_size {
+  font-size: 46px !important;
+}
+
+.custom_border {
+  border: 1px solid black;
+}
+.custom_border:hover {
+  border: 1px solid black;
+}
+.custom_margin{
+  margin-top: 20px;
+}
+
+.cardDetails{
+  background-color: red;
+  width: 100%;
+  height: 10vh;
+}
