@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Sidebar = ({tabValue}) => {
   const tabs = tabValue;
@@ -25,10 +26,10 @@ const Sidebar = ({tabValue}) => {
         <ul className="nav nav-pills flex-column mb-auto">
           {tabs.map((tab, index) => (
             <li className="nav-item" key={index}>
-              <a href="#" className="nav-link text-white fs-5" aria-current="page">
+              <Link to = {`${tab.slug}`} className="nav-link text-white fs-5" aria-current="page">
                 <i className={`bi ${tab.icon} me-3`}></i>
                 {tab.name}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>

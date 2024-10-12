@@ -22,7 +22,7 @@ const ProfileForm = () => {
               style={{ margin: "15px 0px 50px 500px" , marginBottom : "2rem" }}
             >
               <img
-                src="IMG_20211106_141540.jpg"
+                src="src/assets/abstract-user-flat-4.png"
                 alt="Profile Photo"
                 className="rounded-circle"
                 style={{ width: "150px", height: "150px", objectFit: "cover" }}

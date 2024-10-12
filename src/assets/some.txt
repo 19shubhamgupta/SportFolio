@@ -45,3 +45,76 @@
             </a>
           </li>
         </ul>
+
+
+            <div
+                className="form-group row mt-3"
+                style={{ marginLeft: "70px" }}
+              >
+                <label htmlFor="state" className="col-sm-4 col-form-label">
+                  State:
+                </label>
+                <div className="col-sm-8">
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="state"
+                    placeholder="Enter state"
+                    style={{ width: "calc(100% + 10px)" }} // Increased width
+                  />
+                </div>
+              </div>
+              {/* City */}
+              <div
+                className="form-group row mt-3"
+                style={{ marginLeft: "70px" }}
+              >
+                <label htmlFor="city" className="col-sm-4 col-form-label">
+                  City:
+                </label>
+                <div className="col-sm-8">
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="city"
+                    placeholder="Enter city"
+                    style={{ width: "calc(100% + 10px)" }} // Increased width
+                  />
+                </div>
+              </div>
+              {/* Pincode */}
+              <div
+                className="form-group row mt-3"
+                style={{ marginLeft: "70px" }}
+              >
+                <label htmlFor="pincode" className="col-sm-4 col-form-label">
+                  Pincode:
+                </label>
+                <div className="col-sm-8">
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="pincode"
+                    placeholder="Enter pincode"
+                    style={{ width: "calc(100% + 10px)" }} // Increased width
+                  />
+                </div>
+              </div>
+              {/* Address */}
+              <div
+                className="form-group row mt-3"
+                style={{ marginLeft: "70px" }}
+              >
+                <label htmlFor="address" className="col-sm-4 col-form-label">
+                  Address:
+                </label>
+                <div className="col-sm-8">
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="address"
+                    placeholder="Enter address in brief"
+                    style={{ width: "calc(100% + 10px)" }} // Increased width
+                  />
+                </div>
+              </div>
