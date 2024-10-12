@@ -10,6 +10,8 @@ import Home from "./Components/Home";
 import EventCard from "./Components/EventCard";
 import ProfileForm from "./Components/ProfileForm";
 import  Profile from "./Components/Profile"
+import MyEvent from "./Components/MyEvent";
+import StarredEvents from "./Components/StarredEvents";
 
 function App() {
   const participantTabValue = [
@@ -47,7 +49,7 @@ function App() {
       <div className="d-flex">
         <Sidebar tabValue={participantTabValue} />
         <div className="flex-grow-1 p-3">
-          <Profile/>
+          <StarredEvents/>
           
         </div>
       </div>
